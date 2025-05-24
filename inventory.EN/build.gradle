@@ -1,0 +1,13 @@
+
+
+plugins {
+    id "java"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.microsoft.sqlserver:mssql-jdbc:12.4.2.jre17"
+}

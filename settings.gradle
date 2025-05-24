@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = 'inventoryApp'
-include('desktopApp')
+include('desktopApp', 'inventory.EN', 'inventory.DAL', 'inventory.BL')
