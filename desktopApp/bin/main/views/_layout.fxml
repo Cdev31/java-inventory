@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane 
+xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" 
+fx:controller="org.LayoutController" styleClass="body">
+    <top>
+        <HBox styleClass="menu-header" HBox.hgrow="ALWAYS">
+            <Hyperlink styleClass="menu-header-item" text="Inicio" />
+            <Hyperlink styleClass="menu-header-item" text="Productos" />
+            <Hyperlink styleClass="menu-header-item" text="Categorias" />
+            <Hyperlink styleClass="menu-header-item" text="Compras" />
+        </HBox>
+    </top>
+
+    <center>
+        <StackPane fx:id="mainContent" />
+    </center>
+
+   <bottom>
+        <HBox>
+            <Label text="footer" />
+        </HBox>
+   </bottom>
+</BorderPane>
+
+
