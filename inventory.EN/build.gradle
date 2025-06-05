@@ -9,5 +9,10 @@ repositories {
 }
 
 dependencies {
-    implementation "com.microsoft.sqlserver:mssql-jdbc:12.4.2.jre17"
+    implementation("com.microsoft.sqlserver:mssql-jdbc:12.6.1.jre11")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
